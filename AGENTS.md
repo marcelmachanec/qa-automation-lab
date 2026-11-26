@@ -67,8 +67,8 @@ Seeded customer: `customer@practicesoftwaretesting.com` / `welcome01`.
 ## Definition of done
 
 1. `ruff check .` and `robot tests/helpers` pass locally.
-2. A **skipped** smoke test is not a pass. If the API was unreachable, say the change is unverified
-   against the real app instead of reporting success.
+2. A **skipped** smoke test is not a pass. When you report done, give pass/fail/skip counts for each
+   check you ran. Mark any check that was skipped or not run (e.g. API unreachable) "unverified".
 3. README (Czech) updated if you add a suite or change how tests are run.
 
 ## Workflow
